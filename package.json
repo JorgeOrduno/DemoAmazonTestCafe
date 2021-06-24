@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.14.2"
+  },
+  "scripts": {
+    "test:chrome": "testcafe chrome functional/test/ --selector-timeout 15000 -e"
+  }
+}
